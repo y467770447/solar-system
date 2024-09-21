@@ -1,6 +1,4 @@
 <div align="center">
-
-[//]: # (  <img alt="V3 Admin Vite Logo" width="120" height="120" src="./src/assets/logo.jpg">)
   <h1>Three.js太阳系与奥特云demo</h1>
 </div>
 
@@ -8,8 +6,9 @@
 
 - 采用vue3 + vite + Three.js实现太阳系八大行星与太阳和外层奥特云。
 
-
 - 仓库地址：[Github](https://github.com/y467770447/solar-system)
+- 仓库地址：[Gitee](https://gitee.com/robinia-pseudoacacia/solar-system.git)
+- 线上预览：[solar-system](https://www.psophora.com:449)
 
 ## 📺 项目网址
 
