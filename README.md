@@ -8,8 +8,9 @@
 
 - 采用vue3 + vite + Three.js实现太阳系八大行星与太阳和外层奥特云。
 
-
+- 线上预览：[solar](https://www.psophora.com:449)
 - 仓库地址：[Github](https://github.com/y467770447/solar-system)
+- 仓库地址：[Gitee](https://gitee.com/robinia-pseudoacacia/solar-system)
 
 ## 📺 项目网址
 
