@@ -45,7 +45,7 @@ const initSun = () => {
   geometry = new THREE.SphereGeometry(300, 32, 16);
   // 添加纹理加载器
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./sun.jpg');
+  const texture = texLoader.load('/sun.jpg');
   const material = new THREE.MeshBasicMaterial({
     // color:0x0000FF,
     map: texture,
@@ -111,7 +111,7 @@ const initSunRotate = () => {
 const initMercury = () => {
   const geometrys = new THREE.SphereGeometry(5, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./mercury.jpg');
+  const texture = texLoader.load('/mercury.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -151,7 +151,7 @@ const initMercury = () => {
 const initVenus = () => {
   const geometrys = new THREE.SphereGeometry(20, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./venus.jpg');
+  const texture = texLoader.load('/venus.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -191,7 +191,7 @@ const initVenus = () => {
 const initEarth = () => {
   const geometrys = new THREE.SphereGeometry(21, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./earth.jpg');
+  const texture = texLoader.load('/earth.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -231,7 +231,7 @@ const initEarth = () => {
 const initMars = () => {
   const geometrys = new THREE.SphereGeometry(11, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./mars.jpg');
+  const texture = texLoader.load('/mars.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -271,7 +271,7 @@ const initMars = () => {
 const initJupiter = () => {
   const geometrys = new THREE.SphereGeometry(100, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./jupiter.jpg');
+  const texture = texLoader.load('/jupiter.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -311,7 +311,7 @@ const initJupiter = () => {
 const initSaturn = () => {
   const geometrys = new THREE.SphereGeometry(80, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./saturn.jpg');
+  const texture = texLoader.load('/saturn.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -351,7 +351,7 @@ const initSaturn = () => {
 const initUranus = () => {
   const geometrys = new THREE.SphereGeometry(45, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./uranus.jpg');
+  const texture = texLoader.load('/uranus.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染
@@ -391,7 +391,7 @@ const initUranus = () => {
 const initNeptune = () => {
   const geometrys = new THREE.SphereGeometry(45, 32, 16);
   const texLoader = new THREE.TextureLoader();
-  const texture = texLoader.load('./neptune.jpg');
+  const texture = texLoader.load('/neptune.jpg');
   const materials = new THREE.MeshPhysicalMaterial({
     map: texture,
     side: THREE.DoubleSide  //默认只渲染正面，这里设置双面渲染

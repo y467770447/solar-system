@@ -59,9 +59,9 @@ pnpm test
 
 ## 项目预览图
 
-![preview1.png](./src/assets/demo_1.jpg)
-![preview2.png](./src/assets/demo_2.jpg)
-![preview2.png](./src/assets/demo_3.jpg)
+![preview1.png](./public/demo_1.jpg)
+![preview2.png](./public/demo_2.jpg)
+![preview2.png](./public/demo_3.jpg)
 
 ## 📄 License
 
